@@ -103,6 +103,7 @@ div.contents ul {
 }
 
 div.contents li {
+    max-width: 70%;
     display: inline-block;
     vertical-align: middle;
     
@@ -111,13 +112,13 @@ div.contents li {
 div.contents p {
     margin-left: 25px;   
     margin-right: 25px;
+
     text-align: left;
 }
 
 #personalpic {
     height:220px;
-    margin-right: 50px;
-    margin-left: 50px;
+
 }
 
 p {
