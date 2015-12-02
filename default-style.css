@@ -78,7 +78,6 @@ div.sub_wrapper {
     position:relative;
     height: auto;
     background-color: rgba(0, 0, 0, 0.8);
-
     flex-grow: 1;
 }
 
@@ -99,26 +98,21 @@ div.content_wrapper {
 div.contents ul {
     text-align: center;
     line-height: normal;
-
 }
 
 div.contents li {
-    max-width: 70%;
+    max-width: 75%;
     display: inline-block;
     vertical-align: middle;
-    
 }
 
 div.contents p {
     margin-left: 25px;   
-    margin-right: 25px;
-
     text-align: left;
 }
 
 #personalpic {
-    height:220px;
-
+    height:200px;
 }
 
 p {
