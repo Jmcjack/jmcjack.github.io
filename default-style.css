@@ -1,0 +1,135 @@
+/* Default style sheet */
+
+body,
+html {
+    margin: 0;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("pictures/china.jpg");
+}
+
+h1 {
+    /* Change to a certain font */
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font: 22px bold, serif;
+    text-align: left;
+    margin: 10px;
+}
+
+div {
+    background-color: #D1D1D1;
+}
+
+
+/* Header Stylings */
+
+#mainheader {
+    margin-top: 0;
+    text-align: center;
+    background-color: #FFF;
+    padding: 5px 0px 5px 0px;
+}
+
+
+/* Menu Bar Stylings */
+
+#nav {
+    margin-top: 250px;
+    text-align: center;
+    line-height: normal;
+    background-color: white;
+}
+
+#nav li {
+    display: inline-block;
+    float: inherit;
+    margin-right: -5px;
+}
+
+#nav a {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 25px 0px 25px;
+}
+
+#nav a:hover {
+    background: #378B2E;
+    color: white;
+}
+
+
+/* Content */
+
+div.sub_wrapper {
+
+    position:relative;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+div.content_wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+#infoheader {
+    padding: 20px;
+}
+
+#infoheader p {
+    font: 18px arial, serif;
+    font-weight: bold;
+}
+
+div.contents ul {
+    text-align: center;
+    line-height: normal;
+
+}
+
+div.contents li {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+div.contents p {
+    margin-left: 25px;   
+    margin-right: 25px;
+    text-align: left;
+}
+
+#personalpic {
+    height:220px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+
+/* Footer */
+
+#footer {
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+}
