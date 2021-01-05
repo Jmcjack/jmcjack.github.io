@@ -72,6 +72,47 @@ input, select, textarea {
 	appearance: none;
 }
 
+h2.bibliography {
+	color: #000;
+	font-size: 20px;
+	font-style: bold;
+	text-align:center;
+ }
+ 
+ .bibliography p {
+	 margin: 0;
+	 padding: 0;
+ }
+
+ ol.bibliography {
+	list-style-type:none;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+ }
+
+ .bibliography li {
+	margin: 0; 
+	margin-bottom: -30px;
+ }
+ 
+ ul.bibinfo {
+	font-size: 14px;
+	padding: 5px 0px;
+	list-style-type:none;
+ }
+ 
+ .bibinfo li {
+   display: inline-block;
+   padding: 0px 10px;
+ }
+ 
+ .bibinfo li a:hover,
+ .bibinfo li a:focus{
+	color: #ff0000;
+ }
+ 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3638,3 +3679,4 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+	}
